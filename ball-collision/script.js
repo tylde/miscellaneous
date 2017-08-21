@@ -27,6 +27,7 @@ for (let i = 0; i < 250; i++) {
 
     balls[i].velocity = new Vector2D(getRandomFloat(-2, 2, 3), getRandomFloat(-2, 2, 3));
 }
+balls[0].color = 'red';
 
 var timer = setInterval(script, 1000 / FRAMES);
 
