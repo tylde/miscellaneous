@@ -82,7 +82,6 @@ let animate = function() {
     }
     window.requestAnimationFrame(animate);
 }
-
 animate();
 
 
