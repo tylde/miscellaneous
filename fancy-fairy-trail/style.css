@@ -1,0 +1,60 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: #14171b;
+}
+
+#container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.ball {
+    pointer-events: none;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.ball-1 {
+    animation: fairyAnimation1 1.4s ease-in;
+}
+@keyframes fairyAnimation1 {
+    0% { opacity: 0; transform: scale(1) translate(0px, 0px); }
+    15% { opacity: 1; }
+    60% { opacity: 1; transform: scale(0.1) translate(-10px, 10px); }
+    100% { opacity: 0.5; transform: scale(0.1) translate(0px, 0px); }
+}
+
+.ball-2 {
+    animation: fairyAnimation2 1.4s ease-in;
+}
+@keyframes fairyAnimation2 {
+    0% { opacity: 0; transform: scale(1) translate(0px, 0px); }
+    15% { opacity: 1; }
+    60% { opacity: 1; transform: scale(0.1) translate(10px, -10px); }
+    100% { opacity: 0.5; transform: scale(0.1) translate(0px, 0px); }
+}
+
+.ball-3 {
+    animation: fairyAnimation3 1.2s ease-in;
+}
+@keyframes fairyAnimation3 {
+    0% { opacity: 0; transform: scale(1) translate(0px, 0px); }
+    15% { opacity: 1; }
+    60% { opacity: 1; transform: scale(0.1) translate(-10px, -10px); }
+    100% { opacity: 0.5; transform: scale(0.1) translate(0px, 0px); }
+}
+
+.ball-4 {
+    animation: fairyAnimation4 1.6s ease-in;
+}
+@keyframes fairyAnimation4 {
+    0% { opacity: 0; transform: scale(1) translate(0px, 0px); }
+    15% { opacity: 1; }
+    60% { opacity: 1; transform: scale(0.1) translate(10px, 10px); }
+    100% { opacity: 0.5; transform: scale(0.1) translate(0px, 0px); }
+}
