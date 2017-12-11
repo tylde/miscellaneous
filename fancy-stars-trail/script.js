@@ -46,7 +46,7 @@ var iterate = 0;
 
 var handleMouseMove = function(event) {
     if (iterate % 2 === 0)
-        new Particle(container, event.offsetX, event.offsetY, 2).init();
+        new Particle(container, event.offsetX, event.offsetY).init();
     iterate++;
 }
 container.addEventListener('mousemove', handleMouseMove);

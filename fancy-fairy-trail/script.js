@@ -31,7 +31,7 @@ Particle.prototype.destroy = function() {
 var container = document.getElementById('container');
 
 var handleMouseMove = function(event) {
-    new Particle(container, event.offsetX, event.offsetY, 2).init();
+    new Particle(container, event.offsetX, event.offsetY).init();
 }
 container.addEventListener('mousemove', handleMouseMove);
 
