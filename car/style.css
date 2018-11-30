@@ -1,0 +1,21 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #222;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#canvas-container {
+    width: 1800px;
+    height: 900px;
+    margin: auto;
+
+    border: 2px solid white;
+}
+
+#canvas {
+    background-color: rgb(25, 32, 41);
+}
